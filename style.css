@@ -24,20 +24,22 @@ body {
 
 .logo img {
     width: 50%;
+    height: 1200px;
 }
 
 .main {
+    min-width: 50%;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+
 }
 
 .box {
     height: 150px;
-    background-color: #7e2e38;
+    background-color: white;
     margin: 1px;
     transition: all 0.2s ease 0s;
     display: flex;
@@ -52,14 +54,14 @@ body {
 }
 
 .item img {
-    width: 15%;
+    width: 60%;
     float: right;
-    line-height: 150;
+    line-height: 1000px;
 }
 
 .item a {
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: #7e2e38;
 }
 
 @media only screen and (max-width: 750px) {
