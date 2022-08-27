@@ -17,6 +17,22 @@ body {
     height: 80px;
     width: 100%;
     background-color: #7e2e38;
+    color: white;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    margin-left: 20px;
+    outline: none;
+    background-color: #7e2e38;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #main {
@@ -42,14 +58,14 @@ body {
     background-color: #7e2e38;
     text-align: left;
     color: white;
-    font-style: italic;
     margin-top: 5px;
     border-radius: 10px 10px 0 0;
+    font-size: 13px;
 }
 
 .Name-box h1 {
     margin-left: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .item {
@@ -80,7 +96,7 @@ h2 {
     line-height: 150px;
     margin-left: 35px;
     color: #7e2e38;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 hr {
