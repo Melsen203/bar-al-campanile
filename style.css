@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -6,88 +6,94 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(223, 179, 122);
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #7e2e38;
+}
+
+#main {
+    width: 45%;
+    margin: 0px auto;
+    height: 1000px;
+    background-color: #e1ddd9;
+}
+
+.notice {
+    background-color: #b32121;
+    border: 1px solid #7e2e38;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
     text-align: center;
-    flex-wrap: wrap;
+    width: 98%;
+    margin: 0px auto;
 }
 
-.logo img {
-    width: 50%;
-    height: 1200px;
+.Name-box {
+    background-color: #7e2e38;
+    text-align: left;
+    color: white;
+    font-style: italic;
+    margin-top: 5px;
+    border-radius: 10px 10px 0 0;
 }
 
-.main {
-    min-width: 50%;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.box {
-    height: 150px;
-    background-color: white;
-    margin: 1px;
-    transition: all 0.2s ease 0s;
-    display: flex;
-    flex-basis: 50%;
+.Name-box h1 {
+    margin-left: 5px;
+    padding: 10px;
 }
 
 .item {
-    padding: 20px;
-    line-height: 120px;
-    display: inline;
-    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  line-height: 120px;
 }
 
 .item img {
-    width: 60%;
-    float: right;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
 }
 
-.item a {
-    display: inline-block;
+h2 {
+    line-height: 150px;
+    margin-left: 35px;
     color: #7e2e38;
+    font-size: 30px;
 }
 
-@media only screen and (max-width: 750px) {
-    .logo img {
-        width: 100%;
-        height: auto;
-    }
- }
+hr {
+    border: 1px solid black;
+}
 
-@media only screen and (max-width: 750px) {
-    .logo2 img {
-        width: 100%;
-        height: auto;
+@media only screen and (max-width: 1300px) {
+    #main {
+      width: 100%;
     }
- }
+  }
 
- @media only screen and (max-width: 750px) {
-    .box {
-        flex-basis: 100%;
-    }
- }
 
- @media only screen and (max-width: 750px) {
-    .item img{
-    width: 35%;
-    }
- }
 
 
 
