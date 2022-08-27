@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(223, 179, 122);
+    background-color: #e1ddd9;
 }
 
 .nav {
@@ -48,10 +48,9 @@ select {
     border: 1px solid #7e2e38;
     padding: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 10px;
     text-align: center;
-    width: 98%;
     margin: 0px auto;
 }
 
@@ -106,7 +105,7 @@ h2 {
 }
 
 hr {
-    border: 1px solid black;
+    border: 1px solid #7e2e38;
 }
 
 @media only screen and (max-width: 1300px) {
