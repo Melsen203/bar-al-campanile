@@ -33,6 +33,7 @@ select {
     border: 1px solid white;
     padding: 10px;
     border-radius: 5px;
+    -webkit-appearance: none;
 }
 
 #main {
@@ -54,13 +55,18 @@ select {
     margin: 0px auto;
 }
 
+.notice a {
+    color: white;
+    text-decoration: underline;
+}
+
 .Name-box {
     background-color: #7e2e38;
     text-align: left;
     color: white;
     margin-top: 5px;
     border-radius: 10px 10px 0 0;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .Name-box h1 {
