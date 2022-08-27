@@ -56,7 +56,6 @@ body {
 .item img {
     width: 60%;
     float: right;
-    line-height: 1000px;
 }
 
 .item a {
@@ -67,12 +66,14 @@ body {
 @media only screen and (max-width: 750px) {
     .logo img {
         width: 100%;
+        height: auto;
     }
  }
 
 @media only screen and (max-width: 750px) {
     .logo2 img {
         width: 100%;
+        height: auto;
     }
  }
 
