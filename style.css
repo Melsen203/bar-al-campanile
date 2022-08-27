@@ -80,10 +80,9 @@ select {
     position: relative;
 }
 
-.item p {
-    line-height: 150px;
-    margin-left: 25px;
-    font-size: 16px;
+.description {
+    margin-top: 50px;
+    margin-left: 15px;
 }
 
 .right {
@@ -111,7 +110,7 @@ h2 {
 
 h3 {
     line-height: 150px;
-    margin-right: 30px;
+    margin-right: 0px;
     color: #7e2e38;
     font-size: 25px;
 }
