@@ -81,7 +81,7 @@ select {
 }
 
 .description {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 15px;
 }
 
@@ -91,7 +91,7 @@ select {
   justify-content: right;
   position: absolute;
   right: 0;
-  margin-right: 0;
+  margin-right: 25px;
   line-height: 120px;
 }
 
