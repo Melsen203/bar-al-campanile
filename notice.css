@@ -20,9 +20,33 @@ body {
     color: white;
     padding: 10px;
     position: relative;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
     display: flex;
+    top: 0;
+}
+
+.nav a {
+    margin-left: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nav img {
+    height: 50px;
+    width: 42px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 select {
@@ -39,6 +63,7 @@ select {
 #main {
     width: 45%;
     margin: 0px auto;
+    height: 1000px;
     background-color: #e1ddd9;
 }
 
@@ -50,6 +75,8 @@ select {
     font-size: 15px;
     text-align: center;
     margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 5px 5px 0 0;
 }
 
 .notice a {
@@ -62,7 +89,7 @@ select {
     text-align: left;
     color: white;
     margin-top: 5px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
     font-size: 9px;
 }
 
