@@ -64,7 +64,7 @@ select {
     color: white;
     margin-top: 5px;
     border-radius: 10px 10px 0 0;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .Name-box h1 {
@@ -91,21 +91,21 @@ select {
   justify-content: right;
   position: absolute;
   right: 0;
-  margin-right: 25px;
+  margin-right: 15px;
   line-height: 120px;
 }
 
 .item img {
-    padding: 10px;
-    height: 150px;
-    width: 150px;
+    padding: 15px;
+    height: 135px;
+    width: 135px;
 }
 
 h2 {
     line-height: 150px;
-    margin-left: 35px;
+    margin-left: 20px;
     color: #7e2e38;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h3 {
