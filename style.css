@@ -14,15 +14,18 @@ body {
 }
 
 .nav {
-    height: 80px;
+    height: 50px;
     width: 100%;
     background-color: #7e2e38;
     color: white;
     padding: 10px;
     position: relative;
-    display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    top: 0;
 }
 
 select {
