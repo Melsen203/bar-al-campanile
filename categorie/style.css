@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Prompt', cursive;
+}
+
+body {
+    background-color: #e1ddd9;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: #7e2e38;
+    color: white;
+    padding: 10px;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    top: 0;
+}
+
+.nav a {
+    margin-left: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nav img {
+    height: 50px;
+    width: 42px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+select {
+    margin-left: 20px;
+    outline: none;
+    background-color: #7e2e38;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+
+#main {
+    width: 45%;
+    margin: 5px auto;
+    background-color: white;
+}
+
+.Name-box {
+    background-color: #7e2e38;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    font-size: 9px;
+}
+
+.Name-box h1 {
+    margin-left: 5px;
+    padding: 15px;
+}
+
+.box {
+    margin: 10px;
+    height: 180px;
+}
+
+.items {
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.items p {
+    font-size: 17px;
+}
+
+.description {
+    flex-basis: 100%;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    top: 15%;
+  }
+
+.items img {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+}
+
+h1 {
+    opacity: 70%;
+}
+
+h2 {
+    line-height: 150px;
+    margin-left: 20px;
+    color: #7e2e38;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #7e2e38;
+    font-size: 25px;
+}
+
+span {
+    color: rgb(17, 126, 199);
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #7e2e38;
+}
+
+@media only screen and (max-width: 1300px) {
+    #main {
+      width: 100%;
+    }
+  }
+
+
+
+
+
