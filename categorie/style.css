@@ -79,8 +79,10 @@ select {
 }
 
 .box {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0px;
-    height: 145px;
+    min-height: 145px;
     padding: 15px;
     padding-top: 0;
 }
@@ -90,6 +92,7 @@ select {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
+    width: 60%;
 }
 
 .items p {
@@ -144,6 +147,21 @@ span {
 
 hr {
     border: 1px solid #7e2e38;
+}
+
+footer {
+    width: 100%;
+    background-color: #7e2e38;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+footer h2, a {
+    color: white;
 }
 
 @media only screen and (max-width: 1300px) {
