@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Prompt', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 body {
@@ -114,10 +114,6 @@ select {
     height: 140px;
     width: 140px;
     position: absolute;
-}
-
-h1 {
-    opacity: 70%;
 }
 
 h2 {
