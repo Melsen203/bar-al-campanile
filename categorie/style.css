@@ -61,6 +61,7 @@ select {
     width: 45%;
     margin: 0px auto;
     background-color: white;
+    position: relative;
 }
 
 .Name-box {
@@ -88,7 +89,6 @@ select {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    position: relative;
     margin-top: 10px;
 }
 
@@ -102,8 +102,6 @@ select {
 }
 
 .right {
-    display: flex;
-    justify-content: right;
     position: absolute;
     right: 0;
     margin-right: 5px;
@@ -112,7 +110,6 @@ select {
 .items img {
     height: 125px;
     width: 125px;
-    position: absolute;
 }
 
 #p-name {
