@@ -80,7 +80,7 @@ select {
 
 .box {
     margin: 0px;
-    height: 160px;
+    height: 145px;
     padding: 15px;
     padding-top: 0;
 }
@@ -98,13 +98,21 @@ select {
 
 .description {
     flex-basis: 100%;
+}
+
+.prize p {
+    font-size: 17px;
+    margin-top: 10px;
     font-family: 'Lato', sans-serif;
+    color: #7e2e38;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .right {
     position: absolute;
     right: 0;
-    margin-right: 5px;
+    margin-right: 10px;
   }
 
 .items img {
