@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Poppins', cursive;
+    font-family: 'Raleway', cursive;
 }
 
 body {
@@ -42,11 +42,8 @@ body {
 }
 
 .nav img {
-    height: 50px;
-    width: 42px;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
+    height: 25px;
+    width: 15px;
 }
 
 select {
@@ -62,7 +59,7 @@ select {
 
 #main {
     width: 45%;
-    margin: 5px auto;
+    margin: 0px auto;
     background-color: white;
 }
 
@@ -81,16 +78,18 @@ select {
 }
 
 .box {
-    margin: 10px;
-    height: 180px;
+    margin: 0px;
+    height: 160px;
+    padding: 15px;
+    padding-top: 0;
 }
 
 .items {
     background-color: rgb(255, 255, 255);
-    height: 120px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 10px;
 }
 
 .items p {
@@ -99,6 +98,7 @@ select {
 
 .description {
     flex-basis: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 .right {
@@ -107,13 +107,16 @@ select {
     position: absolute;
     right: 0;
     margin-right: 5px;
-    top: 15%;
   }
 
 .items img {
-    height: 140px;
-    width: 140px;
+    height: 125px;
+    width: 125px;
     position: absolute;
+}
+
+#p-name {
+    font-size: 30px;
 }
 
 h2 {
