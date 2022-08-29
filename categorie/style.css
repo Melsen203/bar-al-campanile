@@ -85,6 +85,7 @@ select {
     min-height: 145px;
     padding: 15px;
     padding-top: 0;
+    margin-top: 10px;
 }
 
 .items {
@@ -101,6 +102,7 @@ select {
 
 .description {
     flex-basis: 100%;
+    margin-top: 5px;
 }
 
 .prize p {
@@ -131,7 +133,6 @@ select {
     font-size: 20px;
     padding: 15px;
     color: #7e2e38;
-    border: 2px solid #7e2e38;
     text-align: center;
 }
 
