@@ -19,7 +19,6 @@ body {
     background-color: #7e2e38;
     color: white;
     padding: 10px;
-    position: relative;
     justify-content: left;
     align-items: center;
     position: sticky;
@@ -166,11 +165,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative
+    position: relative;
+    text-align: center;
 }
 
-footer h2, a {
+footer a {
     color: white;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+footer img {
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 1300px) {
