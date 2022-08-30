@@ -89,6 +89,15 @@ body {
     color: #7e2e38;
 }
 
+.items-back p {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    color: #7e2e38;
+}
+
 .items-back img {
     width: 100%;
     height: 70%;

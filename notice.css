@@ -19,13 +19,8 @@ body {
     background-color: #7e2e38;
     color: white;
     padding: 10px;
-    position: relative;
     justify-content: left;
-    align-items: center;
-    position: sticky;
-    position: -webkit-sticky;
     display: flex;
-    top: 0;
 }
 
 .nav a {
@@ -42,22 +37,8 @@ body {
 }
 
 .nav img {
-    height: 50px;
-    width: 42px;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-select {
-    margin-left: 20px;
-    outline: none;
-    background-color: #7e2e38;
-    color: white;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
-    -webkit-appearance: none;
+    height: 25px;
+    width: 15px;
 }
 
 #main {
