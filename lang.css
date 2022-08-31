@@ -46,7 +46,7 @@ img {
     margin-bottom: 10px;
     background: #7e2e38;
     position: relative;
-    animation: text 2s 1;
+    animation: text 1.5s 1;
     margin: 20px;
 }
 
@@ -85,12 +85,12 @@ select::after {
     }
 
     30% {
-        letter-spacing: 5px;
+        letter-spacing: 3px;
         margin-bottom: -40px;
     }
 
     85% {
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         margin-bottom: -40px;
     }
 }
