@@ -33,8 +33,9 @@ img {
     
 }
 
-.container span{
+.container p{
     display: block;
+    font-family: 'Raleway', cursive;
 }
 
 .text1 {
@@ -45,7 +46,6 @@ img {
     position: relative;
     animation: text 1s 1;
     margin: 20px;
-    font-family: 'Raleway', cursive;
 }
 
 select {
