@@ -45,6 +45,7 @@ img {
     position: relative;
     animation: text 2s 1;
     margin: 20px;
+    font-family: 'Raleway', cursive;
 }
 
 select {
@@ -73,6 +74,7 @@ select::after {
 .text2 {
     font-size: 20px;
     color: aqua;
+    font-family: 'Raleway', cursive;
 }
 
 @keyframes text {
